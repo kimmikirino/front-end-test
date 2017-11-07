@@ -14,13 +14,26 @@
     </head>
     <body>
         <header class="header nav">
-            <img class="hamburguer-menu" src="slices/mobile/menu-icon.png">
-            <img class="logo" src="slices/mobile/logo.png">
+            <picture>
+                <source srcset="slices/desktop/menu-icon.png" media="(min-width: 1024px)">
+                <source srcset="slices/tablet/menu-icon.png" media="(min-width: 768px)">
+                <img class="hamburguer-menu" src="slices/mobile/menu-icon.png">
+            </picture>
+            <picture>
+                <source srcset="slices/desktop/logo.png" media="(min-width: 1024px)">
+                <source srcset="slices/tablet/logo.png" media="(min-width: 768px)">
+                <img class="logo" src="slices/mobile/logo.png">
+            </picture>
+            <p class="header__phrase">O site teste para <b>novos webs</b></p>
         </header>
         <main>
             <section class="slider">
                 <div class="box">
-                    <img src="slices/mobile/image_rotate.png">
+                    <picture>
+                        <source srcset="slices/desktop/image_rotate.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/image_rotate.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/image_rotate.png">
+                    </picture>
                     <span class="box__text slider__text">Mussum ipsum cacilds</span>
                 </div>
                 <h1>Pra lá, depois divoltis porris, paradis.</h1>
@@ -32,37 +45,65 @@
             </section>
             <section class="images">
                 <div class="box">
-                    <img src="slices/mobile/highlight-01.png">
+                    <picture>
+                        <source srcset="slices/desktop/highlight-01.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/highlight-01.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/highlight-01.png">
+                    </picture>
                     <span class="box__text">Pindureta</span>
                 </div>
                 <div class="box">
-                    <img src="slices/mobile/highlight-02.png">
+                    <picture>
+                        <source srcset="slices/desktop/highlight-02.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/highlight-02.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/highlight-02.png">
+                    </picture>
                     <span class="box__text">Bolis</span>
                 </div>
                 <div class="box">
-                    <img src="slices/mobile/highlight-03.png">
+                    <picture>
+                        <source srcset="slices/desktop/highlight-03.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/highlight-03.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/highlight-03.png">
+                    </picture>
                     <span class="box__text">Sapien</span>
                 </div>
             </section>
             <section class="articles">
                 <h2>divoltis porris</h2>
                 <article>
-                    <img src="slices/mobile/divoltis-porris-01.png">
+                    <picture>
+                        <source srcset="slices/desktop/divoltis_porris-01.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/divoltis_porris-01.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/divoltis-porris-01.png">
+                    </picture>
                     <h3>consetis</h3>
                     <p>Manduma pindureta quium dia nois paga. Sapien in monti palavris</p>
                 </article>
                 <article>
-                    <img src="slices/mobile/divoltis-porris-02.png">
+                    <picture>
+                        <source srcset="slices/desktop/divoltis_porris-02.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/divoltis_porris-02.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/divoltis-porris-02.png">
+                    </picture>
                     <h3>aenean</h3>
                     <p>Pellentesque laoreet mé vel lectus sceleris-que</p>
                 </article>
                 <article>
-                    <img src="slices/mobile/divoltis-porris-03.png">
+                    <picture>
+                        <source srcset="slices/desktop/divoltis_porris-03.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/divoltis_porris-03.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/divoltis-porris-03.png">
+                    </picture>
                     <h3>matis</h3>
                     <p>Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
                 </article>
                 <article>
-                    <img src="slices/mobile/divoltis-porris-04.png">
+                    <picture>
+                        <source srcset="slices/desktop/divoltis_porris-04.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/divoltis_porris-04.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/divoltis-porris-04.png">
+                    </picture>
                     <h3>divinis</h3>
                     <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis</p>
                 </article>
@@ -90,14 +131,22 @@
             <section class="articles-bottom">
                 <h2>se pirulitá</h2>
                 <article class="box-image">
-                    <img src="slices/mobile/se_pirulita-01.png">
+                    <picture>
+                        <source srcset="slices/desktop/se_pirulita-01.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/se_pirulita-01.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/se_pirulita-01.png">
+                    </picture>
                     <aside class="box-image__txt">
                         <h3>nam liber</h3>
                         <p>Casamentiss faiz malandris se pirulitá</p>
                     </aside>
                 </article>
                 <article class="box-image">
-                    <img src="slices/mobile/se_pirulita-02.png">
+                    <picture>
+                        <source srcset="slices/desktop/se_pirulita-02.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/se_pirulita-02.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/se_pirulita-02.png">
+                    </picture>
                     <aside class="box-image__txt">
                         <h3>gostis</h3>
                         <p>Aenan ut ante turpis. Pellentesque laoreet mé</p>
@@ -107,14 +156,22 @@
             <section class="articles-bottom">
                 <h2>suco de cevadiss</h2>
                 <article class="box-image">
-                    <img src="slices/mobile/suco_de_cevadiss-01.png">
+                    <picture>
+                        <source srcset="slices/desktop/suco_de_cevadiss-01.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/suco_de_cevadiss-01.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/suco_de_cevadiss-01.png">
+                    </picture>
                     <aside class="box-image__txt">
                         <h3>interagi</h3>
                         <p>É um leite divinis, qui te lupuliz, matis aguis e fermentis</p>
                     </aside>
                 </article>
                 <article class="box-image">
-                    <img src="slices/mobile/suco_de_cevadiss-02.png">
+                    <picture>
+                        <source srcset="slices/desktop/suco_de_cevadiss-02.png" media="(min-width: 1024px)">
+                        <source srcset="slices/tablet/suco_de_cevadiss-02.png" media="(min-width: 768px)">
+                        <img src="slices/mobile/suco_de_cevadiss-02.png">
+                    </picture>
                     <aside class="box-image__txt">
                         <h3>gostis</h3>
                         <p>Aenan ut ante turpis. Pellentesque laoreet mé</p>
