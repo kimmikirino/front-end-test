@@ -1,23 +1,70 @@
+# Teste para candidatos à vaga de desenvolvedor Front-end para FolhaSP
+
+# Sobre o projeto
+
+Protótipo criado em HMTL/CSS responsivo, utilizando pré-processador LESS e grunt para compilação.
+Mobile First.
+
+## Primeiros passos
+
+Download ou clone esse repositório.
+
 ```
- _            _   _         _     _  __  
-| |_    ___  | | | |  ___  | |   (_) \ \ 
+git clone https://github.com/kimmikirino/front-end-test.git
+```
+
+### Pré requisitos
+
+Nenhum. Mas se quiser alterar os arquivos LESS é necessário ter o Node e NPM instalados para compilar.
+
+### Instalação
+
+É possível acessar a página apenas pelo index.html.
+
+Porém para compilar o LESS será necessário instalar as dependências, conforme abaixo:
+Acesse a pasta que fez o download e instale as dependências:
+
+```
+cd front-end-test
+npm install
+```
+
+Em seguida para executar o compilador/watcher digite:
+
+grunt
+
+```
+grunt
+```
+
+### Edição
+
+index.html e /less
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+```
+ _            _   _         _     _  __
+| |_    ___  | | | |  ___  | |   (_) \ \
 | ' \  / -_) | | | | / _ \ |_|    _   | |
 |_||_| \___| |_| |_| \___/ (_)   ( )  | |
-                                 |/  /_/ 
+                                 |/  /_/
 ```
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
 ### Instruções
 
-1. Criar o HTML/CSS responsivo com base no layout navegável. 
+1. Criar o HTML/CSS responsivo com base no layout navegável.
 
 2. Nós queremos avaliar o seu nível de conhecimento em design responsivo (Responsive Web Design) usando HTML5, CSS3 e grids. Caso queira, utilize pré-processadores (Less, SASS ou Stylus, esse último é o nosso favorito :D).
 
-3. O grid do layout é baseado no Grid System do Bootstrap 3, mas não copie todo o bootstrap 3 para o projeto. Nós queremos ver você fazendo os breakpoints e as modificações dependendo do device. 
+3. O grid do layout é baseado no Grid System do Bootstrap 3, mas não copie todo o bootstrap 3 para o projeto. Nós queremos ver você fazendo os breakpoints e as modificações dependendo do device.
 
 4. Não tenha pressa! Iremos avaliar a qualidade do seu código, mesmo incompleto e principalmente a sua semântica.
 
-### Material 
+### Material
 
 * Desktop: https://invis.io/N83OWYCZ5
 * Mobile: https://invis.io/ZA3PCIES4
@@ -39,8 +86,10 @@
 * Paleta de cores usadas no layout: https://color.adobe.com/pt/teste-folha-web-color-theme-6584765/
 * Mussum Ipsum (gerador de lorem ipsum do Mussum): http://mussumipsum.com/
 
-Ao terminar o teste, solicite um pull request. 
+Ao terminar o teste, solicite um pull request.
 
 Em caso de dúvidas, envie e-mail para l-tec-recrutamento-frontend@grupofolha.com.br.
 
 **Boa sorte!**
+
+
