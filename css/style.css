@@ -165,9 +165,10 @@ main img {
   padding: 35px 10px;
   line-height: 1.5;
 }
-.header__phrase, .header__medias{
+.header__phrase, .header__medias, .box__secondary-text, .box__primary-text  { 
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .header.nav .logo {
     margin: 20px 0 0 17%;
@@ -200,4 +201,31 @@ main img {
   .header.nav .header__medias .fa-twitter {
     color: #00adf2;
   }
+
+	.slider__primary-text {
+			display: none;
+		}
+
+  .box__secondary-text, .box__primary-text {
+		display: block;
+		position: absolute;
+		color: #fff;
+		margin-left: 20px;
+	}
+
+	.slider .slider__text {
+		margin-left: 20px;
+		bottom: 25%;
+		left: 0;
+		color: #fff;
+	    font-size: 14px;
+	}
+
+	.slider .box__primary-text { 
+		bottom: 15%;
+	}
+
+	.slider .box__secondary-text { 
+		bottom: 8%;
+	}
 }

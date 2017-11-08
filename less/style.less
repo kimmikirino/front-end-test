@@ -11,6 +11,11 @@ body {
   height: 100%;
 }
 
+/* items are not being displayed because of mobile first */
+.header__phrase, .header__medias, .box__secondary-text, .box__primary-text  { 
+  display: none;
+}
+
 .header {
   z-index: 999;
 
@@ -36,9 +41,6 @@ body {
       margin-top: 20px;
     }
 
-    .header__phrase, .header__medias { 
-      display: none;
-    }
   }
 }
 
