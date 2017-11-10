@@ -3,6 +3,11 @@
 		width: 33.33%;
 		display: inline-block;
 	}
+
+	.ki-clm-2 {
+		width: 50%;
+		display: inline-block;
+	}
 	
 	.header.nav {
 		.logo {
@@ -96,4 +101,14 @@
 		}
 	}
 
+	.articles {
+		article {
+			&:nth-child(5), &:nth-child(3) {
+				padding-left: 10px;
+			}
+			&:nth-child(2), &:nth-child(4) {
+				padding-right: 10px;
+			}
+		}
+	}
 }
