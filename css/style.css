@@ -156,17 +156,18 @@ main img {
   color: #fff;
   background-color: #2C3E50;
 }
-.page-footer .goto {
+.goto {
   background-color: #3498DB;
   padding: 15px 10px;
   text-align: right;
   text-transform: uppercase;
+  clear: both;
 }
 .page-footer p {
   padding: 35px 10px;
   line-height: 1.5;
 }
-.header__phrase, .header__medias, .box__secondary-text, .box__primary-text  { 
+.header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
   display: none;
 }
 
@@ -269,4 +270,43 @@ main img {
   .articles article:nth-child(2), .articles article:nth-child(4) {
     padding-right: 10px;
   }
+
+  .artiles-preview, .articles-bottom {
+    width: 50%;
+    float: left;
+  }
+  
+  .artiles-preview .articles-preview__list li{
+    padding: 20px 0;
+  }
+
+  .articles-bottom .box-image img {
+		max-width: 180px;
+  }
+  
+  .advertising {
+    float: left;
+    width: 50%;
+  }
+  .page-footer {
+    clear: both;
+    padding: 15px;
+  }
+  .page-footer__logo {
+    display: inline-block;
+  }
+
+  .page-footer .page-footer__text {
+    display: inline-block;
+    width: 80%;
+		padding: 20px;
+	}
+}
+
+
+@media screen and (min-width: 992px) {
+  .page-footer {
+    
+  }
+  
 }

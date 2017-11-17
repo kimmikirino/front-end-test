@@ -12,7 +12,7 @@ body {
 }
 
 /* items are not being displayed because of mobile first */
-.header__phrase, .header__medias, .box__secondary-text, .box__primary-text  { 
+.header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
   display: none;
 }
 
@@ -184,16 +184,18 @@ main {
   }
 }
 
+.goto {
+  background-color: @headerColor;
+  padding: 15px 10px;
+  text-align: right;
+  text-transform: uppercase;
+  clear: both;
+}
+
 .page-footer {
   color: #fff;
   background-color: @footerColor;
 
-  .goto {
-    background-color: @headerColor;
-    padding: 15px 10px;
-    text-align: right;
-    text-transform: uppercase;
-  }
 
   p {
     padding: 35px 10px;
