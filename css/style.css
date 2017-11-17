@@ -167,7 +167,7 @@ main img {
   padding: 35px 10px;
   line-height: 1.5;
 }
-.header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
+.header__medias .fa span, .header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
   display: none;
 }
 
@@ -305,6 +305,18 @@ main img {
 
 
 @media screen and (min-width: 992px) {
+  .header__medias .fa span {
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 11px;
+    padding: 7px;
+  }
+
+  .header.nav .header__medias .fa {
+      width: 100px;
+  }
+  
   .page-footer {
     
   }
