@@ -167,7 +167,7 @@ main img {
   padding: 35px 10px;
   line-height: 1.5;
 }
-.header__medias .fa span, .header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
+.header__medias .icon-box span, .header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
   display: none;
 }
 
@@ -187,7 +187,7 @@ main img {
     display: inline-block;
     margin: 20px;
   }
-  .header.nav .header__medias .fa {
+  .header.nav .header__medias .icon-box {
     padding: 7px;
     background-color: #fff;
     border-radius: 5px;
@@ -305,20 +305,27 @@ main img {
 
 
 @media screen and (min-width: 992px) {
-  .header__medias .fa span {
+
+  .header__medias .icon-box span {
     display: inline;
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     font-size: 11px;
     padding: 7px;
+    position: relative;
+    top: -1px;
   }
 
-  .header.nav .header__medias .fa {
+  .header.nav .header__medias .icon-box {
       width: 100px;
+      position: relative;
   }
   
-  .page-footer {
-    
+  .fa-twitter + span {
+    color: #00adf2;
   }
   
+  .fa-facebook + span {
+    color: #36528f;
+  }
 }
