@@ -409,17 +409,29 @@ main img {
     .advertising {
         display: none;
     }
-    .artiles-preview, .articles-bottom {
+    .artiles-preview,
+    .articles-bottom {
         width: 33.33%;
     }
     .artiles-preview {
-      padding-right: 10px;
-  }
-  .articles-bottom.first {
-    padding: 10px 20px;
-  }
-
-  .articles-bottom.second {
-    padding-left: 0px;
-  }
+        padding-right: 10px;
+    }
+    .articles-bottom.first {
+        padding: 10px 20px;
+    }
+    .articles-bottom.second {
+        padding-left: 0px;
+    }
+    .artiles-preview .articles-preview__list li {
+        padding: 15px 0;
+    }
+    .goto {
+        padding: 15px 40px;
+    }
+    .page-footer {
+        text-align: center;
+    }
+    .page-footer .page-footer__text {
+      text-align: left;
+    }
 }
