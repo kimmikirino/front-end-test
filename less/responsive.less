@@ -143,11 +143,26 @@
         width: 100px;
         position: relative;
     }
-    .fa-twitter + span {
+    .fa-twitter+span {
         color: #00adf2;
     }
-
-    .fa-facebook + span {
+    .fa-facebook+span {
         color: #36528f;
-      }
+    }
+
+    .slider, .images, .articles, .artiles-preview, .articles-bottom, .advertising {
+        padding: 10px 40px;
+    }
+
+    .slider__arrow {
+        display: inherit;
+        position: absolute;
+        top: 40%;
+        &.arrow--left {
+            left: -25px;
+        }
+        &.arrow--right {
+            right: 25px;
+        }
+    }
 }

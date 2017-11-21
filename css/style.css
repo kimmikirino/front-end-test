@@ -167,7 +167,7 @@ main img {
   padding: 35px 10px;
   line-height: 1.5;
 }
-.header__medias .icon-box span, .header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo  { 
+.header__medias .icon-box span, .header__phrase, .header__medias, .box__secondary-text, .box__primary-text, .page-footer__logo, .slider__arrow  { 
   display: none;
 }
 
@@ -303,6 +303,14 @@ main img {
 	}
 }
 
+.arrow {
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px 15px;
+  box-shadow: 1px 1px #ccc;
+  position: absolute;
+}
 
 @media screen and (min-width: 992px) {
 
@@ -327,5 +335,24 @@ main img {
   
   .fa-facebook + span {
     color: #36528f;
+  }
+
+  .slider, .images, .articles, .artiles-preview, .articles-bottom, .advertising {
+    padding: 10px 40px;
+  }
+
+
+  .slider__arrow {
+    display: inherit;
+    position: absolute;
+    top: 40%;
+  }
+
+  .arrow--left {
+    left: -25px;
+  }
+
+  .arrow--right {
+      right: 25px;  
   }
 }
