@@ -374,13 +374,17 @@ main img {
     .fa-facebook+span {
         color: #36528f;
     }
-    .slider,
+    
     .images,
     .articles,
     .artiles-preview,
     .articles-bottom,
     .advertising {
         padding: 10px 40px;
+    }
+    .slider {
+      padding-left: 40px;
+      padding-right: 40px;
     }
     .slider__arrow {
         display: inherit;
