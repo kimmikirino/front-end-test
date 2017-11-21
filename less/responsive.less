@@ -149,11 +149,14 @@
     .fa-facebook+span {
         color: #36528f;
     }
-
-    .slider, .images, .articles, .artiles-preview, .articles-bottom, .advertising {
+    .slider,
+    .images,
+    .articles,
+    .artiles-preview,
+    .articles-bottom,
+    .advertising {
         padding: 10px 40px;
     }
-
     .slider__arrow {
         display: inherit;
         position: absolute;
@@ -164,5 +167,38 @@
         &.arrow--right {
             right: 25px;
         }
+    }
+    .articles {
+        &.ki-clm-2-3 {
+            width: 66.6%;
+        }
+    }
+    .advertising-middle {
+        vertical-align: top;
+        padding-top: 31px;
+        text-align: right;
+        padding-right: 40px;
+        color: #ccc;
+        &.ki-clm-3 {
+            display: inline-block;
+        }
+    }
+    .artiles-preview,
+    .articles-bottom {
+        width: 33.33%;
+    }
+    .artiles-preview {
+        padding-right: 10px;
+    }
+    .articles-bottom {
+        .first {
+            padding: 10px 20px;
+        }
+        .second {
+            padding-left: 0px;
+        }
+    }
+    .advertising {
+        display: none;
     }
 }
