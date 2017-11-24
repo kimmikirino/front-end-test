@@ -1,7 +1,5 @@
 @import "reset.less";
-@import "responsive.less";
 @import "variables.less";
-
 
 body {
   font-family: 'Helvetica', sans-serif;
@@ -12,7 +10,7 @@ body {
 }
 
 /* items are not being displayed because of mobile first */
-.header__medias .icon-box span, .header__phrase, .header__medias, .slider__arrow, .box__secondary-text, .box__primary-text, .advertising-middle, .page-footer__logo  { 
+.header__medias .icon-box span, .header__phrase, .header__medias, .slider__arrow, .box__secondary-text, .box__primary-text, .advertising-middle, .page-footer__logo  {
   display: none;
 }
 
@@ -116,7 +114,9 @@ main {
     background-color: @bkgColorImage;
   }
 }
-
+.advertising-middle.ki-clm-3 {
+  display: none;
+}
 
 .articles {
   &.ki-clm-2-3 {
@@ -169,7 +169,6 @@ main {
     margin-top: 20px;
     clear: both;
     display: inline-block;
-
     img {
       width: 50%;
       float: left;
@@ -218,3 +217,5 @@ main {
     line-height: 1.5;
   }
 }
+
+@import "responsive.less";
