@@ -1,8 +1,10 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end para FolhaSP
 
+[Veja aqui o resultado](https://kimmikirino.github.io/front-end-test/)
+
 # Sobre o projeto
 
-Protótipo criado em HMTL/CSS responsivo, utilizando pré-processador LESS e grunt para compilação.
+Protótipo criado em HMTL5/CSS3 responsivo, utilizando pré-processador LESS e grunt para compilação.
 Mobile First.
 
 ## Primeiros passos
@@ -40,6 +42,10 @@ grunt
 ### Edição
 
 index.html e /less
+
+### Compatibilidade
+
+IE9+, Firefox, Chrome e Safari.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
