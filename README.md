@@ -6,6 +6,7 @@
 
 Protótipo criado em HMTL5/CSS3 responsivo, utilizando pré-processador LESS e grunt para compilação.
 Mobile First.
+Breakpoints: 768px para tablets e 992px para Deskops.
 
 ## Primeiros passos
 
@@ -17,7 +18,7 @@ git clone https://github.com/kimmikirino/front-end-test.git
 
 ### Pré requisitos
 
-Nenhum. Mas se quiser alterar os arquivos LESS é necessário ter o Node e NPM instalados para compilar.
+Nenhum. Mas se quiser alterar os arquivos LESS é necessário ter o Node, NPM e Grunt instalados para compilar.
 
 ### Instalação
 
